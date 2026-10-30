@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Research by Nahid Hasan in multimodal learning and NLP: CAAM-Net submitted thesis manuscript, BLP-2025 publication, and ongoing multimodal Bangla disaster detection exploration.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Research | Nahid Hasan">
+  <meta property="og:description" content="Multimodal learning and NLP research: cross-attention fusion, transformer ensembles, multi-task learning, and ongoing work.">
+  <meta property="og:image" content="https://nahid2003131.github.io/assets/nahid-hasan-profile.jpg">
+  <meta property="og:url" content="https://nahid2003131.github.io/research/">
+  <link rel="canonical" href="https://nahid2003131.github.io/research/">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../main.js"></script>
+  <title>Research | Nahid Hasan</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top"><div class="container header-inner">
+    <a class="wordmark" href="../">Nahid Hasan<span class="wordmark-dot">.</span></a>
+    <nav class="site-nav" aria-label="Main navigation"><a href="../#about">About</a><a href="./" aria-current="page">Research</a><a href="../#publications">Publications</a><a href="../#projects">Projects</a><a class="cv-nav" href="../assets/cv/2026-10-30/Nahid_Hasan_CV.pdf" target="_blank" rel="noopener noreferrer">CV <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+  <main class="container research-detail" id="main">
+    <div class="page-heading"><a href="../" class="back-link">← Back to homepage</a><h1>Research</h1><p>My research spans multimodal learning and low-resource NLP. Below are summaries of my undergraduate thesis (manuscript submitted) and published workshop paper, followed by a brief note on ongoing work.</p><div class="jump-links"><a href="#caam-net">CAAM-Net ↓</a><a href="#blp-2025">BLP-2025 ↓</a><a href="#ongoing-work">Ongoing research ↓</a></div></div>
+    <article class="detail-article" id="caam-net">
+      <p class="detail-eyebrow">UNDERGRADUATE THESIS · MANUSCRIPT SUBMITTED · 2025–2026</p>
+      <h2>CAAM-Net: Conflict-Aware Multimodal Bangla Clickbait Detection</h2>
+      <p>In multimodal clickbait detection, headlines and their associated thumbnails can convey conflicting signals. My undergraduate thesis investigates these inconsistencies in Bangla news and develops a conflict-aware model combining language and visual representations.</p>
+      <h3>Method</h3>
+      <ul><li>Integrated <strong>BanglaBERT</strong> and <strong>ConvNeXtV2-Tiny</strong> with bidirectional cross-attention and conflict-aware prediction.</li><li>Created synthetic training conflicts through opposite-class thumbnail substitution.</li><li>Prepared 8,108 validated title–thumbnail pairs and evaluated against 11 baselines using channel-disjoint testing and ablation studies.</li></ul>
+      <h3>Results</h3>
+      <p>The model achieved mean Macro-F1 of <strong>0.7641</strong> under standard evaluation and <strong>0.7512</strong> under synthetic conflict evaluation. These results exceeded the strongest conventional multimodal baseline by <strong>4.45</strong> and <strong>15.58 percentage points</strong>, respectively.</p>
+      <p class="note">A manuscript based on this undergraduate thesis has been submitted and has passed technical checks. As of the 20 October 2026 status update, editorial assignment was pending. It is not yet accepted or published, and no public manuscript link is available.</p>
+    </article>
+    <article class="detail-article" id="blp-2025">
+      <p class="detail-eyebrow">PUBLISHED RESEARCH · 2025</p>
+      <h2>Bangla Hate Speech Detection: Transformer Ensembles &amp; Multi-task Learning</h2>
+      <p>This work investigates fine-grained Bangla hate speech detection across type, target, and severity. It explores transformer-based ensembles and a shared-encoder multi-task learning setup with subtask-specific heads.</p>
+      <h3>Contributions</h3>
+      <ul><li>Developed multilingual transformer-based classification approaches for Bangla hate speech.</li><li>Designed task-specific ensembles across transformer models and training seeds, alongside a shared-encoder multi-task architecture.</li><li>Performed comparative experiments and error analysis of code-mixed slang, implicit hate, and ambiguous targets.</li></ul>
+      <h3>Publication</h3>
+      <p><strong>Nahid Hasan.</strong> “Catalyst at BLP-2025 Task 1: Transformer Ensembles and Multi-task Learning Approaches for Bangla Hate Speech Detection.” <em>Proceedings of the Second Workshop on Bangla Language Processing</em>, pp. 468–475, 2025. Association for Computational Linguistics.</p>
+      <div class="detail-links"><a href="https://aclanthology.org/2025.banglalp-1.41/" target="_blank" rel="noopener noreferrer">Paper ↗</a><a href="https://aclanthology.org/2025.banglalp-1.41.pdf" target="_blank" rel="noopener noreferrer">PDF ↗</a><a href="https://github.com/nahid2003131/blp25_task1_catalyst" target="_blank" rel="noopener noreferrer">Code ↗</a><a href="../assets/hasan-2025-catalyst.bib" download>BibTeX ↓</a></div>
+    </article>
+    <article class="detail-article" id="ongoing-work">
+      <p class="detail-eyebrow">ONGOING RESEARCH · IN PROGRESS</p>
+      <h2>Multimodal Bangla Disaster Detection and Categorization</h2>
+      <p>I am exploring how multi-task learning, cross-modal contrastive learning, and prototype-guided alignment can be combined for multimodal Bangla disaster detection and categorization. This is ongoing research; no completed results or publication are claimed here.</p>
+    </article>
+    <p class="page-ending">Questions about this work? <a href="mailto:nahidhasan2003131@gmail.com">Get in touch</a>.</p>
+  </main>
+  <footer class="container footer"><span>© <span data-year>2026</span> Nahid Hasan</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
